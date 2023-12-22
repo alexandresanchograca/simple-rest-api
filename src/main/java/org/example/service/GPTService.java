@@ -23,7 +23,7 @@ import java.util.List;
 public class GPTService {
 
     private final String base_url = "https://api.openai.com/v1/chat/completions";
-    private final String bearerToken = "Bearer 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";
+    private final String bearerToken = "Bearer YOUR-OPENAI-TOKEN-HERE";
 
     //https://www.baeldung.com/spring-resttemplate-post-json
     public Message sendGetRequest(String endpoint, Message requestMessage) throws IOException {
